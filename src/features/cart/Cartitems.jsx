@@ -16,7 +16,7 @@ function Cartitems() {
         Your cart,{username}
         {cartItems.length}
       </h1>
-      <div className="divide-y divide-stone-400 space-y-4 mt-10 border-b overflow-y-auto max-h-96">
+      <div className="divide-y divide-stone-400 space-y-4 mt-10 border-b overflow-x-hidden overflow-y-auto max-h-[40vh]">
         {cartItems.map((pizza) => (
           <Cartcard pizza={pizza} key={pizza.pizzaId} />
         ))}
