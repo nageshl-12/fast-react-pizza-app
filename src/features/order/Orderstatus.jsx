@@ -64,7 +64,7 @@ function Orderstatus({ data }) {
         )}
       </div>
 
-      <div className="border-t">
+      <div className="border-t max-h-75 overflow-y-auto">
         {cart.map((item) => (
           <Ordercard
             pizza={item}

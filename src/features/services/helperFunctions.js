@@ -5,8 +5,3 @@ export function formatCurrency(currency) {
   }).format(currency);
   return formatted;
 }
-
-export function generateOrderId() {
-  const id = crypto.randomUUID();
-  return id;
-}

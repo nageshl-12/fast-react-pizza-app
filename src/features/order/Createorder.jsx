@@ -2,7 +2,7 @@ import store from "../../store";
 
 import Button from "../ui/components/Button";
 import { Form, redirect, useActionData, useNavigation } from "react-router-dom";
-import { generateOrderId } from "../services/helperFunctions";
+
 import { useDispatch, useSelector } from "react-redux";
 import { getCart, getTotalCartValue } from "../cart/cartReducer";
 import { createOrder } from "../services/apiRestorent";
@@ -144,7 +144,6 @@ export async function createOrderAction({ request }) {
     ...data,
     cart: JSON.parse(data.cart),
     priority: data.priority === "on",
-    id: generateOrderId(),
   };
 
   const errors = {};
