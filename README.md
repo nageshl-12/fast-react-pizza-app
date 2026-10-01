@@ -9,7 +9,17 @@ Users can browse pizzas, customize their orders, manage their cart, place orders
 [![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-Fast%20React%20Pizza-orange?style=for-the-badge)](https://fast-react-pizza-co-app-six.vercel.app/)
 
 ---
+## 📸 Preview
 
+<div align="center">
+
+<img src="./public/1.png" width="850" alt="Weather App Desktop Preview">
+
+<br><br>
+
+<img src="./public/2.png" width="850" alt="Weather App Mobile Preview">
+
+</div>
 ## ✨ Features
 
 - 🍕 Browse pizza menu
